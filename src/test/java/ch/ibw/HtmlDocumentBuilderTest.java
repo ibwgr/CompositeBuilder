@@ -27,7 +27,7 @@ public class HtmlDocumentBuilderTest {{
       HtmlDocumentBuilder builder = HtmlDocumentBuilder.create(null);
 
       String html = builder.generateHtml();
-      expect(html).toEqual("");
+      expect(html).toEqual(":)");
     });
 
     it("should be possible to build a document with just a doctype", () -> {
