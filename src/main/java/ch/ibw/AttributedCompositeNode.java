@@ -17,7 +17,11 @@ public class AttributedCompositeNode {
     this.children = new ArrayList<>();
   }
 
-  public static AttributedCompositeNode create() {
+  public
+  static AttributedCompositeNode create
+          (
+
+          ) {
     return new AttributedCompositeNode();
   }
 
