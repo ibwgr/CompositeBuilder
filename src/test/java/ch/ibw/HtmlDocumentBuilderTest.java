@@ -20,7 +20,7 @@ public class HtmlDocumentBuilderTest {{
      builder.setRoot(node);
 
      String html = builder.generateHtml();
-     expect(html).toEqual("html5\n<node></node>");
+     expect(html).toEqual("xhtml5\n<node></node>");
     });
 
     it("should be possible to build an empty document", () -> {
