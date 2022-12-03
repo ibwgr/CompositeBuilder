@@ -19,6 +19,7 @@ public class HtmlDocumentBuilderTest {{
      HtmlNode node = HtmlNode.create("node");
      builder.setRoot(node);
 
+
      String html = builder.generateHtml();
      expect(html).toEqual("html5\n<node></node>");
     });
