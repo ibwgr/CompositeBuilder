@@ -20,7 +20,6 @@
         <sonar.language>java</sonar.language>
         <sonar.junit.reportsPaths>target/surefire-reports</sonar.junit.reportsPaths>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-        <sonar.jacoco.reportPaths>target/jacoco.exec</sonar.jacoco.reportPaths>
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
